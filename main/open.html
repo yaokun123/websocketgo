@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>请选择房间</h3>
+<a href="/chat?room=1"><button>房间1</button></a>
+<a href="/chat?room=2"><button>房间2</button></a>
+<a href="/chat?room=3"><button>房间3</button></a>
+<a href="/chat?room=4"><button>房间4</button></a>
+
+</body>
+<script>
+    document.getElementById("enter-chat").onclick = function(){
+        window.open("/chat");
+        //location.href = "/chat";
+    }
+</script>
+</html>
