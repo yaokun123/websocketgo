@@ -87,9 +87,6 @@ func (conn *Connection)Close()  {
 	}
 
 	conn.mutex.Unlock()
-
-
-
 }
 
 //内部实现

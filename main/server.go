@@ -136,9 +136,6 @@ func openHandler(w http.ResponseWriter,r *http.Request)  {
 		return
 	}
 	w.Write([]byte(content))
-
-
-
 }
 
 func chatHandler(w http.ResponseWriter,r *http.Request)  {
