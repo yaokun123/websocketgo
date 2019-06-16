@@ -156,6 +156,7 @@ func chatHandler(w http.ResponseWriter,r *http.Request)  {
 		w.Write([]byte("file not found"))
 		return
 	}
+
 	content,err2 := ioutil.ReadAll(f)
 	if err2 != nil{
 		w.Write([]byte("file read fail"))
